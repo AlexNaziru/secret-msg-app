@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+          integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Secret message sharing app</title>
+</head>
+<body>
+        <div class="row">
+            <div class="col s8 offset-s2">
+                <div class="card-panel">
+                    <form>
+                        <label>Enter a secret message!</label>
+                        <input id="msg-input" />
+                        <button class="btn">Create</button>
+                    </form>
+                </div>
+                <div>
+                    Here is the encrypted message!
+                    <input id="link-input" />
+                </div>
+            </div>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
